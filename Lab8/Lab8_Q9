@@ -1,0 +1,42 @@
+  Aug 7 2026 BDBP106: Linux and Python programming Lab 8
+  Learning goals: Basics of VIM editor
+  NOTE: Save screenshots of each exercise, and upload your work to your github account as
+  Lab8.pdf and the modified data file by end of Friday Aug 7.
+  EXERCISES Start a fresh terminal for this Lab and make a new directory called ’Lab8’.
+  Copy the ‘Braincancer.csv’ file to this directory. At the end of the lab, rename the data file as
+  ‘Braincancer Lab8.csv’ and upload this to github as well.
+  (1) Open the data file using the VIM editor.
+  (2) Move to the beginning of the file and insert the text: ”VIM challenge begins!” on a new
+  line at the very top.
+  (3) Find the word ‘Meningioma’ and replace it with ‘LG glioma’
+  (4) Delete the entire line containing the time column entry ‘34.66’
+  (5) Copy the current line and paste it two lines below. Show the screenshot before and after
+  pasting with file line numbers to prove that you did it correctly.
+  (6) Move to the 11th line of this file and insert ”Hello from line 11!”
+  (7) Search for the word ‘SRT’ and replace it with ‘SRS’ (all occurences in the file)
+  (8) Yank the first 3 lines of the file and paste them at the bottom
+  (9) Visually select this entire instructions list and indent it by two spaces.
+  (10) Go to the 50th line number, and insert the following text: “ The cat sat on the mat.
+  Another cat was watching. The cat did not move.” Replace all occurences of the word
+  “cat” with ”tiger”.
+  (11) Insert the text “This is an important reminder for you.” at 70th line number. Then
+  change the word ‘important’ to ‘critical’. Describe the sequence of keystrokes used in
+  full.
+  (12) Note down the current line number, jump to the end of the file and jump back to this
+  line without scrolling through every line. Describe the sequence of keystrokes used in
+  full.
+  (13) Add the following sentence at the end of the file: ”The quick brown fox (who was very
+  quick) jumps over the lazy dog.” Delete the text inside the parentheses (including the
+  parentheses) in the following text. Describe the sequence of keystrokes used in full.
+  (14) Go to the last line of the file and append: ”– end of challenge”
+  (15) In the remaining exercises, we are going to use Vim’s search, replace, visual modes and
+  text objects. Open the file vim_cleanup_exercises.txt and do the following. Describe
+  the sequence of keystrokes fully for each problem.
+  (i) Fix spacing issues in the text in the lines 1-3.
+  (ii) Fix any capitalization and typographical errors in lines 5-8.
+  (iii) Correct punctuation errors in lines 10-13.
+  (iv) Remove unwanted words in lines 15-17.
+  (v) Fix alignment issues in lines 19-22.
+  
+ 
+ 
